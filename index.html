@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Party Box</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Party Box 🎉</h1>
+      <p>Celebrate Life’s Special Moments with Party Box!</p>
+      <div class="menu-icon" title="Menu~" onclick="toggleMenu()">☰</div>
+      <div id="menu-box" class="hidden-menu">
+        <a href="index.html">Home</a>
+        <a href="javascript:void(0);" onclick="togglePackage()">Packages</a>
+        <a href="javascript:void(0);" onclick="toggleContact()">Contact</a>
+        <a href="javascript:void(0);" onclick="showAbout()">About us</a>
+      </div>
+
+      <nav id="navbar">
+        <a href="bday.html">Birthday</a>
+        <a href="anniversary.html">Anniversary</a>
+        <a href="bridal.html">Bridal party</a>
+        <a href="love proposal.html">Love proposal</a>
+        <a href="Ring.html">Ring ceremony</a>
+      </nav>
+      <!-- Contact Section -->
+    </header>
+    <div class="img-box" id="img-box">
+      <img
+        src="C:\Users\kura nikhil\Documents\Javascript\Bday image.jpeg"
+        alt="bday"
+        height="400"
+        width="100%"
+      />
+    </div>
+    <!-- Contact Section -->
+    <div class="contact-left" id="contact-box" style="display: none">
+      <h3>Contact Us</h3>
+      <p><strong>Address:</strong> Near Ayyappa Temple, siddipet</p>
+      <p>
+        <strong>Location:</strong
+        ><a href="https://maps.app.goo.gl/hLZ4SuedsWmstCoq7?g_st=aw">
+          https://maps.app.goo.gl/hLZ4</a
+        >
+      </p>
+      <p><strong>Name:</strong> Manideep</p>
+      <p><strong>Phone:</strong> +91-9705421971</p>
+      <p><strong>Email:</strong> partybox@gmail.com</p>
+    </div>
+    <section id="packages" class="packages" style="display: none">
+      <h2>Celebrate for Just ₹999/- Only!</h2>
+      <ul>
+        <li>🎂 1/2 Kg Cake</li>
+        <li>✨ Sparkle</li>
+        <li>🎊 Paper Shot</li>
+        <li>🏷️ Badge</li>
+        <li>👑 Crown</li>
+        <li>📽️ 4K Projector</li>
+        <li>🔊 Sound System</li>
+      </ul>
+    </section>
+    <section id="about-section" style="display: none; padding: 20px">
+      <h2>About Us</h2>
+      <p>
+        Party Box is your go-to partner for celebrating life’s most special
+        moments. Whether it's a birthday, anniversary, proposal, or bridal
+        shower, we deliver joy, decorations, and unforgettable memories – all at
+        affordable prices!
+      </p>
+    </section>
+
+    <script src="first.js"></script>
+  </body>
+</html>
